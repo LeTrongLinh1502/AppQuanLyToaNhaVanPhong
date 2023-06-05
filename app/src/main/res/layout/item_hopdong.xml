@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/danhsachhopdong"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tvMaHopDong"
+            android:text="Mã hợp đồng"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:id="@+id/tvTenKH"
+            android:text="Tên khách hàng"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/tvNgayBatDauThue"
+            android:text="Ngày bắt đầu thuê"
+            android:textSize="@dimen/text_size_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:text="Mô tả"
+            android:textSize="@dimen/text_size_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:maxLines="1"
+            android:id="@+id/tvNgayKy"
+            android:text="Ngày ký"
+            android:textSize="@dimen/text_size_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:maxLines="1"
+            android:id="@+id/tvThoiHan"
+            android:text="Thời hạn"
+            android:textSize="@dimen/text_size_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@color/Primary"
+                android:id="@+id/tvTienCoc"
+                android:text="Tiền Cọc"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/teal_700"
+                android:id="@+id/tvMaPhong"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:text="Mã phòng"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

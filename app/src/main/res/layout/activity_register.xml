@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_rect01" />
+    <ImageView
+        android:id="@+id/imag"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/logo_line"
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imag"
+        android:layout_centerHorizontal="true"
+        android:elevation="10sp"
+        android:text="Quản lý tòa nhà"
+        android:textColor="@color/teal_200"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imag"
+        android:id="@+id/lnAccount"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableStart="@drawable/ic__email"
+                android:drawablePadding="5dp"
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableStart="@drawable/ic__password"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnbutton"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lnAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:textColor="@color/white"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:id="@+id/btnCancel"
+            android:textSize="@dimen/text_size_button"
+            android:layout_marginRight="5dp"
+            android:elevation="10dp"
+            android:background="@drawable/bg_button_red"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:textSize="@dimen/text_size_button"
+            android:textAllCaps="false"
+            android:text="Đăng Ký"
+            android:id="@+id/btnSignUp"
+            android:layout_marginLeft="5dp"
+            android:elevation="10dp"
+            android:background="@drawable/bg_button_border_red"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnGuest"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lnbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

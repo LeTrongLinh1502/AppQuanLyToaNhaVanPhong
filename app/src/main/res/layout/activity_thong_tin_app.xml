@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    tools:context=".ThongTinAppActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/imgHinh1"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_1" />
+        <ImageView
+            android:id="@+id/imgHinh2"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvTittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+
+            android:text="    App quản lý tòa nhà là một ứng dụng di động đa chức năng giúp quản lý toàn diện các hoạt động liên quan đến quản lý tòa nhà. Dưới đây là mô tả chi tiết về các chức năng của app:\n
+1. Quản lý tài khoản:\n
+    - Người dùng có thể đăng ký và đăng nhập vào ứng dụng bằng tài khoản cá nhân (quản lý bằng Firebase).\n
+    - Cung cấp chức năng quản lý thông tin cá nhân, cho phép người dùng cập nhật thông tin, thay đổi mật khẩu.\n
+2. Quản lý chung:\n
+    - Quản lý danh sách công ty: cho phép thêm, sửa, xóa, tìm kiếm, thống kê và hiển thị danh sách các công ty có liên quan đến tòa nhà.\n
+    - Quản lý nhân viên tòa nhà: cho phép thêm, sửa, xóa, tìm kiếm, thống kê và hiển thị danh sách các nhân viên tòa nhà.\n
+    - Danh sách nhân viên công ty: cho phép thêm, sửa, xóa, tìm kiếm, thống kê và hiển thị danh sách các nhân viên công ty trong tòa nhà.\n
+    - Quản lý các dịch vụ tòa nhà: cho phép thêm, sửa, xóa, tìm kiếm, thống kê và hiển thị danh sách các dịch vụ có sẵn trong tòa nhà.\n
+3. Quản lý đặt phòng:\n
+    - Cung cấp chức năng đặt phòng cho khách hàng là các công ty.\n
+    - Hiển thị danh sách các phòng có sẵn trong tòa nhà, bao gồm thông tin về diện tích, giá cả, tình trạng phòng, v.v.\n
+    - Người dùng có thể chọn phòng, nhập thông tin đặt phòng và xác nhận đặt phòng.\n
+4. Quản lý hợp đồng:\n
+    - Ghi nhận thông tin về các hợp đồng thuê căn hộ hoặc phòng trong tòa nhà.\n
+    - Hiển thị danh sách hợp đồng, bao gồm thông tin về người thuê, ngày bắt đầu thuê, thời hạn thuê, tiền cọc, v.v.\n
+    - Cung cấp chức năng thêm, sửa, xóa hợp đồng và cập nhật thông tin khi có thay đổi.\n
+5.  Quản lý thanh toán hóa đơn:\n
+    - Ghi nhận và quản lý các hóa đơn liên quan đến thuê phòng hoặc dịch vụ trong tòa nhà.\n
+    - Người dùng có thể xem danh sách hóa đơn, thông tin chi tiết về từng hóa đơn và thanh toán trực tuyến.\n
+
+"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">QuanLyToaNha</string>
+    <string-array name="ChucVuNVCongTy">
+        <item>Giám đốc</item>
+        <item>Phó giám đốc</item>
+        <item>Trưởng phòng</item>
+        <item>Quản lý</item>
+        <item>Nhân viên</item>
+    </string-array>
+    <string-array name="ChucVuNVToaNha">
+        <item>Trưởng ban</item>
+        <item>Nhân viên</item>
+    </string-array>
+    <string-array name="GioiTinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string-array name="VaiTro">
+        <item>Bảo vệ</item>
+        <item>Marketing</item>
+        <item>Kinh doanh</item>
+        <item>Vệ sinh</item>
+        <item>Kỹ thuật</item>
+    </string-array>
+    <string-array name="LoaiDV">
+        <item>An Ninh/Bảo vệ</item>
+        <item>Sửa chữa/Bảo trì</item>
+        <item>Tư vấn</item>
+        <item>Vệ sinh</item>
+        <item>Mua/Bán</item>
+        <item>Tiện ích</item>
+        <item>Chăm sóc sức khỏe</item>
+
+    </string-array>
+    <string-array name="status_list">
+        <item>Đang cho thuê</item>
+        <item>Đã cho thuê</item>
+        <item>Còn trống</item>
+    </string-array>
+    <string-array name="PhuongThucThanhToan">
+        <item>Chuyển khoản</item>
+        <item>Tiền mặt</item>
+        <item>Quẹt thẻ</item>
+    </string-array>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+</resources>

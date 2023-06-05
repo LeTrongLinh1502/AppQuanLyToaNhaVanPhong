@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HopDongActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã hợp đồng"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etMaHopDong"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Nhập mã hợp đồng"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/ic_code"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etSoCMND"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Số CMND"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_card"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etTenKH"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Tên khách hàng"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_person"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ngày bắt đầu thuê"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày ký"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <EditText
+            android:id="@+id/etNgayBatDauThue"
+            android:elevation="3dp"
+            android:drawablePadding="8dp"
+            android:layout_margin="8dp"
+            android:padding="9dp"
+            android:hint="Ngày thuê"
+            android:layout_width="match_parent"
+            android:background="@drawable/ic_bg_hopdong"
+            android:drawableLeft="@drawable/icon_time"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/etNgayKy"
+            android:elevation="3dp"
+            android:drawablePadding="8dp"
+            android:layout_margin="8dp"
+            android:padding="9dp"
+            android:hint="Ngày ký"
+            android:layout_width="match_parent"
+            android:background="@drawable/ic_bg_hopdong"
+            android:drawableLeft="@drawable/icon_time"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/etMoTa"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Mô tả"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_description"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiền cọc"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/etTienCoc"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Tiền cọc"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_tien"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời hạn thuê (tháng)"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:id="@+id/etThoiHanThue"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Thời hạn thuê"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_thoihan"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã phòng thuê"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/etMaPhong"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Nhập mã phòng thuê" />-->
+    <EditText
+        android:id="@+id/etMaPhong"
+        android:elevation="3dp"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:padding="13dp"
+        android:hint="Mã phòng thuê"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_bg_hopdong"
+        android:drawableLeft="@drawable/icon_room"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_allbutton"
+        android:text="Lưu">
+    </Button>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_cancel"
+            android:text="Cancel">
+        </Button>
+</LinearLayout>
+</LinearLayout>

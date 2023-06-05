@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestDB"
+        tools:targetApi="31">
+        <activity
+            android:name=".ForgetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThongTinAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThongBaoThanhToanOkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DanhSachHopDongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HoaDonThanhToanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThongBaoKetThucActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhongChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatPhongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HopDongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddDichVuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddNVToaNhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteDichVuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteNVToaNhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteNVCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddNVCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyDichVuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyNhanVienToaNhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyNhanVienCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyCongTyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

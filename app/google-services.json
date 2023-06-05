@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092301489564",
+    "project_id": "appquanlytoanha",
+    "storage_bucket": "appquanlytoanha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092301489564:android:7f7bff8b96068598e6b459",
+        "android_client_info": {
+          "package_name": "com.example.testdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092301489564-mcjrsiatlqb9oj27fdeonkd4b35q863d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSPrVPwo4S61CiUliUnaHn2IytBdl-I8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092301489564-mcjrsiatlqb9oj27fdeonkd4b35q863d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
