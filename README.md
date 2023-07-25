@@ -18,11 +18,12 @@ Hệ thống gồm 3 phần:
   - [x] Thông tin ứng dụng         
 ### Các phần mềm và công nghệ sử dụng
 #### Các phần mềm sử dụng
--  **AndroidStudio**: Spring Tool Suite (STS) là một công cụ đắc lực cho các lập trình viên khi làm việc với Spring framework. Với Spring Boot, nó cũng không phải là ngoại lệ. Để hỗ trợ cho Spring Boot, STS đã tích hợp với Spring Initializr giúp chúng ta có thể dễ dàng bắt đầu làm việc với Spring Boot. 
--   **SQL Server 2014**:MySQL là một hệ thống quản trị cơ sở dữ liệu mã nguồn mở (gọi tắt là RDBMS) hoạt động theo mô hình client-server. Với RDBMS là viết tắt của Relational Database Management System.
+-  **AndroidStudio**: Android Studio là một môi trường phát triển tích hợp (IDE) được phát triển bởi Google để phát triển ứng dụng Android. Nó cung cấp nền tảng hoàn chỉnh để phát triển, xây dựng và thử nghiệm ứng dụng di động Android. Android Studio được xây dựng trên IntelliJ IDEA, một IDE phổ biến khác, và được tối ưu hóa cho phát triển ứng dụng di động Android
+- **SQL Server 2014**: SQL Server 2014 là một hệ quản trị cơ sở dữ liệu quan hệ (RDBMS) được phát triển bởi Microsoft. Nó là một phiên bản của Microsoft SQL Server, là một trong những hệ quản trị cơ sở dữ liệu phổ biến nhất trên thế giới và được sử dụng rộng rãi trong các doanh nghiệp và tổ chức.
+
 ## Cơ Sở dữ liệu 
 #### CSDL SQL Server
-![image](https://user-images.githubusercontent.com/91041371/171356444-10b403cf-e76d-4a73-acba-8ba119c7c933.png)
+![image](https://github.com/LeTrongLinh1502/AppQuanLyToaNhaVanPhong/assets/91041371/b48e9b7e-3b76-4872-88de-b91104f083ba)
 
 #### CSDL FireBase
 ![image](https://github.com/LeTrongLinh1502/AppQuanLyToaNhaVanPhong/assets/91041371/9a486cc8-c06e-4871-8ebd-f145f17b6a6f)
@@ -31,8 +32,6 @@ Hệ thống gồm 3 phần:
 #### Giao diện Home
 ![image](https://github.com/LeTrongLinh1502/AppQuanLyToaNhaVanPhong/assets/91041371/8b824042-c62f-44d5-8e27-2fb3975e4399)
 
-**Chức năng thêm bài viết** <br>
-![image](https://user-images.githubusercontent.com/91041371/171363362-91a43476-e73d-4087-b528-b156650fe16c.png)
 **Chức năng quản lý các user** <br>
 -Danh sách các user:username,passwword,lastname,firstname,nickname,email,rights
 ![image](https://user-images.githubusercontent.com/91041371/171363921-4dc40426-f10e-4ff6-a52d-62b41c634c0f.png)
