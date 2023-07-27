@@ -31,15 +31,3 @@ Hệ thống gồm 3 phần:
 ## Thiết kế các giao diện và chức năng
 #### Giao diện Home
 ![image](https://github.com/LeTrongLinh1502/AppQuanLyToaNhaVanPhong/assets/91041371/8b824042-c62f-44d5-8e27-2fb3975e4399)
-
-**Chức năng quản lý các user** <br>
--Danh sách các user:username,passwword,lastname,firstname,nickname,email,rights
-![image](https://user-images.githubusercontent.com/91041371/171363921-4dc40426-f10e-4ff6-a52d-62b41c634c0f.png)
--Sửa thông tin user
-![image](https://user-images.githubusercontent.com/91041371/171364493-fb3884e1-a0be-4f47-b501-7b6372573db4.png)
--Xóa user
-![image](https://user-images.githubusercontent.com/91041371/171364606-a2c5e1b5-b906-4d76-b0dd-8bafaae71f62.png)
-
-
-
-  
