@@ -40,10 +40,10 @@ Hệ thống gồm 3 phần:
 
 #### Quản lý công ty
 
-<img src="https://f11-zpc.zdn.vn/3154552574848927544/7df772cb1cebcfb596fa.jpg" alt="Mô tả ảnh" width="230" height="520">,
-<img src="https://f27-zpc.zdn.vn/2259814611862509872/f4f848b72697f5c9ac86.jpg" alt="Mô tả ảnh" width="230" height="520">,
-<img src="https://f19-zpc.zdn.vn/6906510293132290389/a904734c1d6cce32977d.jpg" alt="Mô tả ảnh" width="230" height="520">,
-<img src="https://f23-zpc.zdn.vn/3449082556839800518/68c45f6d304de313ba5c.jpg" alt="Mô tả ảnh" width="230" height="520">
+<img src="https://f11-zpc.zdn.vn/3154552574848927544/7df772cb1cebcfb596fa.jpg" alt="Mô tả ảnh" width="190" height="450">,
+<img src="https://f27-zpc.zdn.vn/2259814611862509872/f4f848b72697f5c9ac86.jpg" alt="Mô tả ảnh" width="190" height="450">,
+<img src="https://f19-zpc.zdn.vn/6906510293132290389/a904734c1d6cce32977d.jpg" alt="Mô tả ảnh" width="190" height="450">,
+<img src="https://f23-zpc.zdn.vn/3449082556839800518/68c45f6d304de313ba5c.jpg" alt="Mô tả ảnh" width="190" height="450">
 
 #### Quản lý nhân viên công ty
 
